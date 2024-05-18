@@ -61,6 +61,7 @@
   padding: 1rem 0;
   border-bottom: 1px solid var(--color-white);
   border-top: 1px solid var(--color-white);
+  max-width: 90vw;
 }
 .slide-text {
   display: flex;
