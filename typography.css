@@ -1,0 +1,44 @@
+.text-xs {
+  font-size: 10px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-md {
+  font-size: 14px;
+}
+
+.text-2xl {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.text-basic {
+  font-family: "Pragmatic";
+}
+
+.text-link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 550px) {
+    
+}
+
+@media only screen and (min-width: 1024px) {
+  .text-2xl {
+    font-size: 6rem;
+  }
+  .text-xs {
+    font-size: 12px;
+  }
+  .text-sm {
+    font-size: 14px;
+  }
+  .text-md {
+    font-size: 16px;
+  }
+}

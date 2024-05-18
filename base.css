@@ -1,0 +1,57 @@
+/* Importing PP Acma font */
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PP Acma Thin"),
+    url("./assets/fonts/pp-acma-cufonfonts-webfont/") format("woff");
+}
+
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 500;
+  src: local("PP Acma Light"),
+    url("./assets/fonts/pp-acma-cufonfonts-webfont/PPAcma-Light.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "PP Acma";
+  font-style: normal;
+  font-weight: 600;
+  src: local("PP Acma Semibold"),
+    url("./assets/fonts/pp-acma-cufonfonts-webfont/PPAcma-Semibold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "PP Acma";
+  font-style: 700;
+  font-weight: normal;
+  src: local("PP Acma Black"),
+    url("./assets/fonts/pp-acma-cufonfonts-webfont/PPAcma-Black.woff")
+      format("woff");
+}
+
+@font-face {
+    font-family: "Pragmatic";
+    src: url("./assets/fonts/pragmatica-2/PRG45.TTF");
+}
+
+/* CSS Variables */
+:root {
+  --color-primary: #252323;
+  --color-white: #ffffff;
+}
+
+/* Basic styles */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PP Acma";
+}
